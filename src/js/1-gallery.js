@@ -75,8 +75,8 @@ const galleryItems = images.map(createGalleryItem);
 
 galleryContainer.append(...galleryItems);
 
-const lightbox = new SimpleLightbox('.gallery a', {
-  captions: true,
+new SimpleLightbox('.gallery a', {
+  
   captionsData: 'alt',
   captionDelay: 250,
 });
